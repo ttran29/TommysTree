@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | 2025 Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/81cd35d7f3.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <ul class="navbar-resume">
+        <li><a href="https://www.linkedin.com/in/tommy-tran-794000291/"><i class="fa-brands fa-linkedin" id="icon1"></i></a></li>
+        <li><a href="https://github.com/ttran29"><i class="fa-brands fa-square-github" id="icon2"></i></a></li>
+        <li><a href="assets/Resume/TommyTranResume.pdf" id="icon3">Resume</a></li>
+      </ul>
+      <button id="menu-button" class="menu-button"></button>
+    </div>
+
+    <!-- Menu Section -->
+    <div id="menu" class="menu">
+      <ul>
+        <li><a href="index.html">01. Home</a></li>
+        <li><a href="projects.html">02. Projects</a></li>
+        <li><a href="experience.html">03. Experience</a></li>
+        <li><a href="contact.html">04. Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="contact-container">
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out for collaborations, project inquiries, or just to say hello! I'll get back to you as soon as possible.</p>
+        <form action="mailto:tot006@ucsd.edu" method="POST" enctype="text/plain">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your email address" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Your message" rows="6" required></textarea>
+
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
